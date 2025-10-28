@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+select = ["E", "F"]
+ignore = ["E501"]
